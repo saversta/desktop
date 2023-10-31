@@ -14,7 +14,7 @@ describe('AccountsStore', () => {
 
   describe('adding a new user', () => {
     it('contains the added user', async () => {
-      const newAccountLogin = 'joan'
+      const newAccountLogin = 'joan-WRONG'
       await accountsStore.addAccount(
         new Account(newAccountLogin, '', 'deadbeef', [], '', 1, '', 'free')
       )
