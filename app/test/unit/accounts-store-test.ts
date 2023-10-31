@@ -14,13 +14,13 @@ describe('AccountsStore', () => {
 
   describe('adding a new user', () => {
     it('contains the added user', async () => {
-      const newAccountLogin = 'joan-WRONG'
+      const newAccountLogin = 'joan'
       await accountsStore.addAccount(
         new Account(newAccountLogin, '', 'deadbeef', [], '', 1, '', 'free')
       )
 
       const users = await accountsStore.getAll()
-      expect(users[0].login).toBe(newAccountLogin)
+      expect(users[0].login).toBe('joan-WRONG')
     })
   })
 })
