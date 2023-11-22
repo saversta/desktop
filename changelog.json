@@ -1,7 +1,7 @@
 {
   "releases": {
     "3.3.5": [
-      "[Added] Syntax highlighting now supports .cc files - #17503. Thanks @DylanDevelops!",
+      "[Added] Syntax highlighting now supports .cc files - #17503. Ttesthanks @DylanDevelops!",
       "[Fixed] Long file paths are correctly truncated in the conflicts dialog - #17595 test test"
     ],
     "3.3.5-beta1": [
